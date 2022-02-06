@@ -46,8 +46,6 @@ li {
           align-items: center;
 }
 
-<<<<<<< HEAD
-=======
 @media (max-width: 1300px) {
   .cv .container {
     -webkit-column-gap: 30px;
@@ -71,7 +69,6 @@ li {
   }
 }
 
->>>>>>> main
 .cv__title {
   font-weight: 600;
   font-size: 75px;
@@ -79,8 +76,6 @@ li {
   margin-bottom: 64px;
 }
 
-<<<<<<< HEAD
-=======
 @media (max-width: 1100px) {
   .cv__title {
     font-size: 57px;
@@ -95,7 +90,6 @@ li {
   }
 }
 
->>>>>>> main
 .cv__details {
   display: -ms-grid;
   display: grid;
@@ -107,8 +101,6 @@ li {
   margin-bottom: 45px;
 }
 
-<<<<<<< HEAD
-=======
 @media (max-width: 767px) {
   .cv__details {
     -webkit-column-gap: 25px;
@@ -118,7 +110,6 @@ li {
   }
 }
 
->>>>>>> main
 .cv__details-image {
   margin-bottom: 2px;
 }
@@ -148,8 +139,6 @@ li {
   opacity: .9;
 }
 
-<<<<<<< HEAD
-=======
 @media (max-width: 1100px) {
   .cv__subtitle {
     font-size: 25px;
@@ -184,7 +173,6 @@ li {
   }
 }
 
->>>>>>> main
 .cv .tech__item {
   margin-bottom: 16px;
 }
@@ -221,8 +209,6 @@ li {
   margin-bottom: 50px;
 }
 
-<<<<<<< HEAD
-=======
 @media (max-width: 1100px) {
   .cv__more {
     margin-bottom: 30px;
@@ -235,7 +221,6 @@ li {
   }
 }
 
->>>>>>> main
 .cv__more:last-child {
   margin-bottom: 0;
 }
@@ -284,8 +269,6 @@ li {
   height: 100%;
 }
 
-<<<<<<< HEAD
-=======
 @media (max-width: 1300px) {
   .cv__bg {
     padding: 60px 40px;
@@ -312,7 +295,6 @@ li {
   }
 }
 
->>>>>>> main
 .cv__bg::before {
   content: '';
   position: absolute;
@@ -333,8 +315,6 @@ li {
   line-height: 35px;
 }
 
-<<<<<<< HEAD
-=======
 @media (max-width: 1100px) {
   .cv__quote {
     font-size: 25px;
@@ -349,7 +329,6 @@ li {
   }
 }
 
->>>>>>> main
 .cv__quote::before, .cv__quote::after {
   font-weight: inherit;
   font-size: inherit;

@@ -35,8 +35,6 @@ li{
         grid-template-columns: 1fr 1fr 1fr;
         column-gap: 50px;
         align-items: center;
-<<<<<<< HEAD
-=======
         @media(max-width:1300px){
             column-gap: 30px;
         }
@@ -48,7 +46,6 @@ li{
             grid-template-columns:  1fr;
             row-gap: 40px;
         }
->>>>>>> main
     }
 
     &__title{
@@ -56,8 +53,6 @@ li{
         font-size: 75px;
         line-height: 1;
         margin-bottom: 64px;
-<<<<<<< HEAD
-=======
         @media(max-width:1100px){
             font-size: 57px;
             margin-bottom: 50px;
@@ -66,7 +61,6 @@ li{
             font-size: 45px;
             margin-bottom: 40px;
         }
->>>>>>> main
     }
 
     &__details{
@@ -75,14 +69,11 @@ li{
         column-gap: 45px;
         row-gap: 28px;
         margin-bottom: 45px;
-<<<<<<< HEAD
-=======
         @media(max-width:767px){
             column-gap: 25px;
             row-gap: 25px;
             margin-bottom: 40px;
         }
->>>>>>> main
 
         &-image{
             margin-bottom: 2px;
@@ -111,8 +102,6 @@ li{
         line-height: 25px;
         margin-bottom: 15px;
         opacity: .9;
-<<<<<<< HEAD
-=======
         @media(max-width:1100px){
             font-size: 25px;
             margin-bottom: 10px;
@@ -133,16 +122,11 @@ li{
             grid-column-end: 2;
             row-gap: 40px;
         }
->>>>>>> main
     }
 
     .tech{
         &__item{
             margin-bottom: 16px;
-<<<<<<< HEAD
-=======
-
->>>>>>> main
             &:last-child{
                 margin-bottom: 0;
             }
@@ -173,15 +157,12 @@ li{
 
     &__more{
         margin-bottom: 50px;
-<<<<<<< HEAD
-=======
         @media(max-width:1100px){
             margin-bottom: 30px;
         }
         @media(max-width:992px){
             margin-bottom: 0px;
         }
->>>>>>> main
         &:last-child{
             margin-bottom: 0;
         }
@@ -223,8 +204,6 @@ li{
         display: grid;
         align-items: flex-end;
         height: 100%;
-<<<<<<< HEAD
-=======
         @media(max-width:1300px){
             padding: 60px 40px ;
         }
@@ -238,7 +217,6 @@ li{
             min-height: calc(100vh - 30px);
             padding: 40px 30px;
         }
->>>>>>> main
         &::before{
             content: '';
             position: absolute;
@@ -256,8 +234,6 @@ li{
         font-weight: 600;
         font-size: 30px;
         line-height: 35px;
-<<<<<<< HEAD
-=======
         @media(max-width:1100px){
             font-size: 25px;
             line-height: 32px;
@@ -267,7 +243,6 @@ li{
             line-height: 30px;
         }
         
->>>>>>> main
         &::before, &::after{
             font-weight: inherit;
             font-size: inherit;
