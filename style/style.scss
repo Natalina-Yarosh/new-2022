@@ -83,16 +83,17 @@ li{
             font-size: 15px;
             line-height: 25px;
             opacity: .6;
+            
+        }
+        &-info{
+            font-size: 15px;
+            line-height: 25px;
             overflow: hidden;
             text-overflow: ellipsis;
             display: -webkit-box;
             -webkit-box-orient: vertical;
             -webkit-line-clamp: 3; 
-            max-height: 75px;
-        }
-        &-info{
-            font-size: 15px;
-            line-height: 25px;
+            max-height: 75px; 
         }
     }
 
