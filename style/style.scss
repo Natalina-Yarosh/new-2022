@@ -64,6 +64,10 @@ a{
     font-weight: 500;
     font-size: 48px;
     line-height: 58px;
+    @media(max-width: 767px){
+        font-size: 38px;
+        line-height: 43px;
+    }
 }
 
 .btn__start{
@@ -82,14 +86,24 @@ a{
     max-width: 195px;
     text-align: center;
     transition: all .3s linear;
+    @media(max-width: 767px){
+        padding: 15px;
+    }
     &:hover{
         background-color: $footer;
     }
+}
+body.open{
+    height: 100vh;
+    overflow: hidden;
 }
 
 .header{
     padding: 33px 0;
     margin-bottom: 68px;
+    @media(max-width: 767px){
+        margin-bottom: 40px;
+    }
     .container{
         padding: 0 60px;
         max-width: 100%;
@@ -99,6 +113,9 @@ a{
         @media(max-width: 1340px){
             padding: 0 15px;
         }
+        @media(max-width:1100px){
+           column-gap: 40px;
+        }
 
         .btn__start{
             margin: 0;
@@ -106,9 +123,16 @@ a{
             @media(max-width: 1070px){
                 max-width: 145px;
             }
+            // @media(max-width: 1024px){
+            //     display: none;
+            // }
+            @media(max-width: 767px){
+                display: none;
+            }
         }
 
         .logo{
+            display: flex;
             @media(max-width: 1250px){
                 width: 200px;
                 img{
@@ -119,14 +143,13 @@ a{
     }
     &__open-mobile {
         display: none;
-        @media(max-width: 1024px){
+        @media(max-width: 767px){
             display: block;
-            width: 20px;
-            height: 20px;
+            width: 40px;
+            height: 40px;
             display: flex;
             align-items: center;
             justify-content: center;
-            margin: 10px 0;
             cursor: pointer;
         }
         span{
@@ -139,19 +162,19 @@ a{
             &::before {
                 content: '';
                 display: block;
-                width: 20px;
-                border-bottom: 2px solid #000000;
+                width: 40px;
+                border-bottom: 2px solid $text;
                 position: relative;
-                top: 6px;
+                top: 15px;
                 transition: all .3s linear;
             }
             &::after {
                 content: '';
                 display: block;
-                width: 20px;
-                border-bottom: 2px solid #000000;
+                width: 40px;
+                border-bottom: 2px solid $text;
                 position: relative;
-                top: 12px;
+                top: 25px;
                 transition: all .3s linear;
             }
         }
@@ -164,14 +187,18 @@ a{
     @media(max-width: 1340px){
         margin-bottom: 5px;
     }
-    @media(max-width: 1024px){
-        display: none;
-    }
+    
+   
     &__list{
         display: flex;
         column-gap: 33px;
         @media(max-width: 1200px){
             column-gap: 20px;
+        }
+        @media(max-width: 1100px){
+            flex-wrap: wrap;
+            row-gap: 10px;
+            justify-content: center;
         }
     }
     &__item:hover .nav__link{
@@ -185,7 +212,53 @@ a{
         transition: all .3s linear;
         
     }
+    
 }
+.nav{
+    @media(max-width:767px){
+        transform: translateX(-100%);
+        transition: all .3s ease-in-out;
+        display: block;
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        background: #7c8efd;
+        left: 0;
+        top: 0;
+        padding: 118px 15px 15px;
+        .nav__list{
+            display: grid;
+            width: 100%;
+            text-align: center;
+        }
+    }
+}
+
+.open .nav{
+    @media(max-width: 767px){
+        transform: translateX(0%);  
+    }
+    
+    
+}
+.open  .header__open-mobile span::after{
+    top: 15px;
+    transform: rotate(-45deg);
+}
+.open  .header__open-mobile span::before{
+    top: 17px;
+    transform: rotate(45deg);
+}
+
+.open .header{
+    position: relative;
+    z-index: 2;
+    .logo{
+        z-index: 2;
+    }
+}
+
+
 
 .banner{
     background-image: url(../media/banner-bg.png);
@@ -194,6 +267,13 @@ a{
     background-position: top center;
     position: relative;
     margin-bottom: 65px;
+    @media(max-width: 1100px){
+        font-size: 40px;
+        line-height: 50px;
+    }
+    @media(max-width: 767px){
+        background-size: cover;
+    }
    & > .container{
         max-width: 1315px;
         text-align: center;
@@ -205,6 +285,10 @@ a{
         text-align: center;
         color: $text;
         margin-bottom: 13px;
+        @media(max-width: 767px){
+            font-size: 40px;
+            line-height: 50px;
+        }
    }
    &__text{
         color: $text;
@@ -217,6 +301,9 @@ a{
         width: 67vw;
         @media(max-width: 1340px){
             width: 55vw;
+        }
+        @media(max-width: 767px){
+            width: 100%;
         }
    }
    .btn__start{
@@ -232,6 +319,9 @@ a{
     position: relative;
     overflow: hidden;
     margin-bottom: 184px;
+    @media(max-width: 767px){
+        margin-bottom: 80px;
+    }
     &::before{
         content: '';
         background-image: url(../media/features-right.svg);
@@ -257,6 +347,12 @@ a{
         column-gap: 30px;
         row-gap: 25px;
         position: relative;
+        @media(max-width: 1100px){
+            grid-template-columns: 1fr 1fr;
+        }
+        @media(max-width: 767px){
+            grid-template-columns: 1fr;
+        }
         &::before{
             content: '';
             background-image: url(../media/features-left.svg);
@@ -334,6 +430,9 @@ a{
     @media(max-width: 1340px){
         padding: 100px 0 ;
     }
+    @media(max-width: 767px){
+        padding: 80px 0 ;
+    }
     &__subtitle{
         text-align: center;
         color: $text;
@@ -365,9 +464,16 @@ a{
         align-items: center;
         padding: 12px 9px;
         column-gap: 34px;
+        @media(max-width: 767px){
+            grid-template-columns: 1fr;
+            row-gap: 30px;
+        }
     }
     &__info{
        padding-right: 35px;
+       @media(max-width: 767px){
+            padding: 0 30px 30px;
+        }
     }
     &__img{
         display: flex;
@@ -435,6 +541,16 @@ a{
         align-items: center;
         row-gap: 16px;
         margin-bottom: 36px;
+        @media(max-width: 1100px){
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            column-gap: 16px;
+        }
+        @media(max-width: 992px){
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+        @media(max-width: 767px){
+            grid-template-columns: 1fr 1fr;
+        }
     }
     &__item{
         transition: all .3s linear;
@@ -458,10 +574,17 @@ a{
     @media(max-width: 1340px){
         padding: 120px 0  100px;
     }
+    @media(max-width: 767px){
+        padding: 80px 0;
+    }
     .container{
         display: grid;
         align-items: center;
         grid-template-columns: 46% 1fr;
+        @media(max-width: 767px){
+            grid-template-columns: 1fr;
+            row-gap: 50px;
+        }
     }
     &__info{
         max-width: 417px;
@@ -513,6 +636,9 @@ a{
         margin-right: 80px;
         opacity: .8;
         transition: opacity .3s linear;
+        @media(max-width:1100px){
+            margin: 0;
+        }
         &:hover{
             opacity: 1;
         }
@@ -527,6 +653,13 @@ a{
         padding-bottom: 22px;
         margin-bottom: 30px;
         position: relative;
+        @media(max-width:1100px){
+            justify-content: space-between;
+        }
+        @media(max-width: 767px){
+            display: grid;
+            row-gap: 30px;
+        }
         &::before{
             content: '';
             position: absolute;
@@ -540,14 +673,26 @@ a{
     .nav__link{
         opacity: .8;
         transition: opacity .3s linear;
+        color: $text;
         &:hover{
-            opacity: 1;
+            color: $text;
+            opacity: 1; 
+        }
+    }
+    .nav__list{
+        @media(max-width: 767px){
+            display: grid;
+            row-gap: 30px;
+            justify-content: flex-start;
         }
     }
     .social{
         display: flex;
         column-gap: 19px;
         margin-left: auto;
+        @media(max-width:1100px){
+            margin: 0;
+        }
         &__link{
             opacity: .8;
             transition: opacity .3s linear;
@@ -560,6 +705,11 @@ a{
         display: flex;
         align-items: center;
         justify-content: space-between;
+        @media(max-width: 767px){
+            display: grid;
+            row-gap: 30px;
+            justify-content: flex-start;
+        }
     }
     &__text{
         color: $text;
@@ -570,6 +720,7 @@ a{
     &__list{
         display: flex;
         column-gap: 23px;
+        
     }
     &__link{
         font-size: 15px;
@@ -582,3 +733,4 @@ a{
         }
     }
 }
+
