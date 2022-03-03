@@ -382,7 +382,7 @@
             </form>
             <div class="appointment__content">
                 <h3 class="appointment__title">Maxime placeat facere possimus omnis </h3>
-                <p class="appointment__count">5,700+</p>
+                <p class="appointment__count" id="appointmentCount">0</p>
                 <p class="appointment__text">customers served</p>
             </div>
         </div>
@@ -399,15 +399,30 @@
                 </p>
                 <h3 class="title-3 gallery__title">Check out our hard workers</h3>
                 <div class="gallery__tabs">
-                    <button class="gallery__tab" id="gallery">Gallery</button>
-                    <button class="gallery__tab active" id="liveStreamOne">Live stream: Yard <div class="count">1</div> </button>
-                    <button class="gallery__tab" id="liveStreamTwo">Live stream: Yard <div class="count">2</div> </button>
-                    <button class="gallery__tab" id="liveStreamThree">Live stream: Yard <div class="count">3</div> </button>
+                    <!-- <button class="gallery__tab" id="gallery">Gallery</button> -->
+                    <input type="radio" name="tab-btn" id="tab-btn-1" value="" checked>
+                    <label for="tab-btn-1" class="gallery__tab">Gallery</label>
+
+                    <!-- <button class="gallery__tab active" id="liveStreamOne">Live stream: Yard <div class="count">1</div> </button> -->
+                    <input type="radio" name="tab-btn" id="tab-btn-2" value="" checked>
+                    <label for="tab-btn-2" class="gallery__tab">Live stream: Yard <div class="count">1</div></label>
+
+                    <!-- <button class="gallery__tab" id="liveStreamTwo">Live stream: Yard <div class="count">2</div> </button> -->
+                    <input type="radio" name="tab-btn" id="tab-btn-3" value="" checked>
+                    <label for="tab-btn-3" class="gallery__tab">Live stream: Yard <div class="count">2</div></label>
+
+                    <input type="radio" name="tab-btn" id="tab-btn-4" value="" checked>
+                    <label for="tab-btn-4" class="gallery__tab">Live stream: Yard <div class="count">2</div></label>
+
+                    <div class="gallery__img">
+                        <div class="gallery__play">Live</div>
+                        <img src="media/images/gallery/gallery.jpg" alt="Gallery" id="content-1">
+                        <img src="media/images/banner.jpg" alt="Live stream: Yard 1" id="content-2">
+                        <img src="media/images/appointment.jpg" alt="Live stream: Yard 2" id="content-3">
+                        <img src="media/images/impact.jpg" alt="Live stream: Yard 3" id="content-4">
+                    </div>
                 </div>
-                <div class="gallery__img">
-                    <div class="gallery__play">Live</div>
-                    <img src="media/images/gallery/gallery.jpg" alt="Live stream: Yard 1">
-                </div>
+                
             </div>
             <div class="customers">
                 <div class="customers__info">
