@@ -685,15 +685,17 @@ body{
     }
     &__info {
         padding-top: 4px;
-        &-title{
-            color: $secondary;
-            margin-bottom: 20px;
-        }
-        &-text{
-            @include font-16;
-            font-weight: 400;
-            color: $gray;
-        }
+    }
+
+    .title__info{
+        color: $secondary;
+        margin-bottom: 20px;
+    }
+
+    .text__info{
+        @include font-16;
+        font-weight: 400; 
+        color: $gray;
     }
     
 }
@@ -746,7 +748,7 @@ body{
            content: none;
         }
     }
-    &__wrap-img{
+    &__wrap{
         position: absolute;
         width: 50%;
         bottom: -4px;
@@ -758,9 +760,9 @@ body{
             transform: scale(-1, 1);
             right: 0;
         }
-        img{
-            width: 100%;
-        }
+    }
+    &__img{
+        width: 100%;
     }
     &__content {
         max-width: 410px;
@@ -852,34 +854,6 @@ body{
             grid-template-columns: 1fr;
         }
     }
-    .service{
-        background: $white;
-        display: block;
-        border-radius: 20px;
-        text-align: center;
-        transition: all .3s linear;
-        padding: 52px 45px 50px;
-        @media(max-width:992px){
-            padding: 30px 30px 35px;
-        }
-        &:hover{
-            filter: drop-shadow(0px 8px 16px rgba(38, 38, 38, 0.24)) drop-shadow(0px 16px 24px rgba(38, 38, 38, 0.2));
-        }
-        &__svg{
-            width: 63px;
-            height: 63px;
-            margin: 0 auto 33px;
-        }
-        &__title{
-            @include title-6;
-            color: $secondary;
-            margin-bottom: 20px
-        }
-        &__text{
-            @include font-16;
-            color: $gray;
-        }
-    }
     .btn{
         margin: 0 auto;
         display: block;
@@ -887,6 +861,35 @@ body{
         text-transform: uppercase;
         padding: 11px 25px;
         margin-top: 68px;
+    }
+}
+
+.service{
+    background: $white;
+    display: block;
+    border-radius: 20px;
+    text-align: center;
+    transition: all .3s linear;
+    padding: 52px 45px 50px;
+    @media(max-width:992px){
+        padding: 30px 30px 35px;
+    }
+    &:hover{
+        filter: drop-shadow(0px 8px 16px rgba(38, 38, 38, 0.24)) drop-shadow(0px 16px 24px rgba(38, 38, 38, 0.2));
+    }
+    &__svg{
+        width: 63px;
+        height: 63px;
+        margin: 0 auto 33px;
+    }
+    &__title{
+        @include title-6;
+        color: $secondary;
+        margin-bottom: 20px
+    }
+    &__text{
+        @include font-16;
+        color: $gray;
     }
 }
 
@@ -1292,43 +1295,43 @@ body{
             row-gap: 24px;
         }
     }
-    .customer{
-        background: $white;
-        border-radius: 20px;
-        padding: 45px 44px 40px;
-        @media(max-width:350px){
-            padding: 40px 30px 35px;
-        }
-        &__text{
-            @include font-16;
-            font-weight: 400;
-            margin-bottom: 40px;
-        }
-        &__wrap{
-            display: grid;
-            grid-template-columns: 48px 1fr;
-            column-gap: 15px;
-            align-items: center;
-        }
-        &__img{
-            width: 48px;
-            height: 48px;
-            border-radius: 50%;
-            overflow: hidden;
-            img{
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
-                object-position: center;
-            }
-        }
-        &__name{
-            @include font-16;
-            font-weight: 700;
-            color: $secondary;
+}
+
+.customer{
+    background: $white;
+    border-radius: 20px;
+    padding: 45px 44px 40px;
+    @media(max-width:350px){
+        padding: 40px 30px 35px;
+    }
+    &__text{
+        @include font-16;
+        font-weight: 400;
+        margin-bottom: 40px;
+    }
+    &__wrap{
+        display: grid;
+        grid-template-columns: 48px 1fr;
+        column-gap: 15px;
+        align-items: center;
+    }
+    &__img{
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        overflow: hidden;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
         }
     }
-    
+    &__name{
+        @include font-16;
+        font-weight: 700;
+        color: $secondary;
+    }
 }
 
 .impact{
@@ -1367,7 +1370,7 @@ body{
         color: $white;
         max-width: 450px;
     }
-    &__top-right {
+    &__right {
         border-radius: 40px;
         overflow: hidden;
         position: relative;
@@ -1470,15 +1473,15 @@ body{
             text-align: center;
             padding: 45px 30px ;
         }
+    }
 
-        &-title{
-            @include title-5;
-            color: $white;
-            max-width: 510px;
+    .impact-title{
+        @include title-5;
+        color: $white;
+        max-width: 510px;
 
-            @media(max-width:767px){
-                max-width: 100%;
-            }
+        @media(max-width:767px){
+            max-width: 100%;
         }
     }
 
@@ -1600,11 +1603,11 @@ body{
         margin-bottom: 24px;
     }
 
-    &__social {
+    .social {
         display: flex;
         align-items: center;
         column-gap: 18px;
-        &-link {
+        &__link {
             display: flex;
             width: 24px;
             height: 24px;
@@ -1621,7 +1624,7 @@ body{
         }
     }
 
-    &__item-title{
+    &__title{
         @include font-14;
         text-transform: uppercase;
         font-weight: 700;
@@ -1641,20 +1644,6 @@ body{
             @media(max-width:767px){
                 display: grid;
                 row-gap: 20px;
-            }
-        }
-        &-text{
-            @include font-12;
-            letter-spacing: .15px;
-            color: $white;
-        }
-        &-info {
-            display: flex;
-            align-items: center;
-            column-gap: 8px;
-            @media(max-width:350px){
-                display: grid;
-                row-gap: 10px;
             }
         }
         .menu{
@@ -1687,4 +1676,20 @@ body{
         }
     }
 
+    .bottom{
+        &-text{
+            @include font-12;
+            letter-spacing: .15px;
+            color: $white;
+        }
+        &-info {
+            display: flex;
+            align-items: center;
+            column-gap: 8px;
+            @media(max-width:350px){
+                display: grid;
+                row-gap: 10px;
+            }
+        }
+    }
 }
