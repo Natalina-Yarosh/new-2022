@@ -12,10 +12,7 @@ openMobileMenu.onclick = function () {
 let list = document.querySelectorAll(".link__btn");
 list.forEach((item) => {
   item.addEventListener("click", (e) => {
+    item.classList.toggle("select");
     e.preventDefault();
-    list.forEach((el) => {
-      el.classList.remove("select");
-    });
-    item.classList.add("select");
   });
 });
