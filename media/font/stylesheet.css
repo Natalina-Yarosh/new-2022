@@ -1,192 +1,292 @@
 @font-face {
     font-family: 'Sofia Pro';
-    src: url('SofiaProSemiBold.eot');
+    src: url('sofia/SofiaProSemiBold.eot');
     src: local('Sofia Pro Semi Bold'), local('SofiaProSemiBold'),
-        url('SofiaProSemiBold.eot?#iefix') format('embedded-opentype'),
-        url('SofiaProSemiBold.woff2') format('woff2'),
-        url('SofiaProSemiBold.woff') format('woff'),
-        url('SofiaProSemiBold.ttf') format('truetype');
+        url('sofia/SofiaProSemiBold.eot?#iefix') format('embedded-opentype'),
+        url('sofia/SofiaProSemiBold.woff2') format('woff2'),
+        url('sofia/SofiaProSemiBold.woff') format('woff'),
+        url('sofia/SofiaProSemiBold.ttf') format('truetype');
     font-weight: 600;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Sofia Pro';
-    src: url('SofiaProRegular-Italic.eot');
+    src: url('sofia/SofiaProRegular-Italic.eot');
     src: local('Sofia Pro Regular Italic'), local('SofiaProRegular-Italic'),
-        url('SofiaProRegular-Italic.eot?#iefix') format('embedded-opentype'),
-        url('SofiaProRegular-Italic.woff2') format('woff2'),
-        url('SofiaProRegular-Italic.woff') format('woff'),
-        url('SofiaProRegular-Italic.ttf') format('truetype');
+        url('sofia/SofiaProRegular-Italic.eot?#iefix') format('embedded-opentype'),
+        url('sofia/SofiaProRegular-Italic.woff2') format('woff2'),
+        url('sofia/SofiaProRegular-Italic.woff') format('woff'),
+        url('sofia/SofiaProRegular-Italic.ttf') format('truetype');
     font-weight: normal;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Sofia Pro';
-    src: url('SofiaProSemiBold-Italic.eot');
+    src: url('sofia/SofiaProSemiBold-Italic.eot');
     src: local('Sofia Pro Semi Bold Italic'), local('SofiaProSemiBold-Italic'),
-        url('SofiaProSemiBold-Italic.eot?#iefix') format('embedded-opentype'),
-        url('SofiaProSemiBold-Italic.woff2') format('woff2'),
-        url('SofiaProSemiBold-Italic.woff') format('woff'),
-        url('SofiaProSemiBold-Italic.ttf') format('truetype');
+        url('sofia/SofiaProSemiBold-Italic.eot?#iefix') format('embedded-opentype'),
+        url('sofia/SofiaProSemiBold-Italic.woff2') format('woff2'),
+        url('sofia/SofiaProSemiBold-Italic.woff') format('woff'),
+        url('sofia/SofiaProSemiBold-Italic.ttf') format('truetype');
     font-weight: 600;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Sofia Pro';
-    src: url('SofiaProLight.eot');
+    src: url('sofia/SofiaProLight.eot');
     src: local('Sofia Pro Light'), local('SofiaProLight'),
-        url('SofiaProLight.eot?#iefix') format('embedded-opentype'),
-        url('SofiaProLight.woff2') format('woff2'),
-        url('SofiaProLight.woff') format('woff'),
-        url('SofiaProLight.ttf') format('truetype');
+        url('sofia/SofiaProLight.eot?#iefix') format('embedded-opentype'),
+        url('sofia/SofiaProLight.woff2') format('woff2'),
+        url('sofia/SofiaProLight.woff') format('woff'),
+        url('sofia/SofiaProLight.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Sofia Pro';
-    src: url('SofiaProExtraLight.eot');
+    src: url('sofia/SofiaProExtraLight.eot');
     src: local('Sofia Pro ExtraLight'), local('SofiaProExtraLight'),
-        url('SofiaProExtraLight.eot?#iefix') format('embedded-opentype'),
-        url('SofiaProExtraLight.woff2') format('woff2'),
-        url('SofiaProExtraLight.woff') format('woff'),
-        url('SofiaProExtraLight.ttf') format('truetype');
+        url('sofia/SofiaProExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('sofia/SofiaProExtraLight.woff2') format('woff2'),
+        url('sofia/SofiaProExtraLight.woff') format('woff'),
+        url('sofia/SofiaProExtraLight.ttf') format('truetype');
     font-weight: 200;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Sofia Pro';
-    src: url('SofiaProMedium-Italic.eot');
+    src: url('sofia/SofiaProMedium-Italic.eot');
     src: local('Sofia Pro Medium Italic'), local('SofiaProMedium-Italic'),
-        url('SofiaProMedium-Italic.eot?#iefix') format('embedded-opentype'),
-        url('SofiaProMedium-Italic.woff2') format('woff2'),
-        url('SofiaProMedium-Italic.woff') format('woff'),
-        url('SofiaProMedium-Italic.ttf') format('truetype');
+        url('sofia/SofiaProMedium-Italic.eot?#iefix') format('embedded-opentype'),
+        url('sofia/SofiaProMedium-Italic.woff2') format('woff2'),
+        url('sofia/SofiaProMedium-Italic.woff') format('woff'),
+        url('sofia/SofiaProMedium-Italic.ttf') format('truetype');
     font-weight: 500;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Sofia Pro';
-    src: url('SofiaProUltraLight-Italic.eot');
+    src: url('sofia/SofiaProUltraLight-Italic.eot');
     src: local('Sofia Pro UltraLight Italic'), local('SofiaProUltraLight-Italic'),
-        url('SofiaProUltraLight-Italic.eot?#iefix') format('embedded-opentype'),
-        url('SofiaProUltraLight-Italic.woff2') format('woff2'),
-        url('SofiaProUltraLight-Italic.woff') format('woff'),
-        url('SofiaProUltraLight-Italic.ttf') format('truetype');
+        url('sofia/SofiaProUltraLight-Italic.eot?#iefix') format('embedded-opentype'),
+        url('sofia/SofiaProUltraLight-Italic.woff2') format('woff2'),
+        url('sofia/SofiaProUltraLight-Italic.woff') format('woff'),
+        url('sofia/SofiaProUltraLight-Italic.ttf') format('truetype');
     font-weight: 200;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Sofia Pro';
-    src: url('SofiaProRegular.eot');
+    src: url('sofia/SofiaProRegular.eot');
     src: local('Sofia Pro Regular'), local('SofiaProRegular'),
-        url('SofiaProRegular.eot?#iefix') format('embedded-opentype'),
-        url('SofiaProRegular.woff2') format('woff2'),
-        url('SofiaProRegular.woff') format('woff'),
-        url('SofiaProRegular.ttf') format('truetype');
+        url('sofia/SofiaProRegular.eot?#iefix') format('embedded-opentype'),
+        url('sofia/SofiaProRegular.woff2') format('woff2'),
+        url('sofia/SofiaProRegular.woff') format('woff'),
+        url('sofia/SofiaProRegular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Sofia Pro';
-    src: url('SofiaProMedium.eot');
+    src: url('sofia/SofiaProMedium.eot');
     src: local('Sofia Pro Medium'), local('SofiaProMedium'),
-        url('SofiaProMedium.eot?#iefix') format('embedded-opentype'),
-        url('SofiaProMedium.woff2') format('woff2'),
-        url('SofiaProMedium.woff') format('woff'),
-        url('SofiaProMedium.ttf') format('truetype');
+        url('sofia/SofiaProMedium.eot?#iefix') format('embedded-opentype'),
+        url('sofia/SofiaProMedium.woff2') format('woff2'),
+        url('sofia/SofiaProMedium.woff') format('woff'),
+        url('sofia/SofiaProMedium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Sofia Pro';
-    src: url('SofiaProBold.eot');
+    src: url('sofia/SofiaProBold.eot');
     src: local('Sofia Pro Bold'), local('SofiaProBold'),
-        url('SofiaProBold.eot?#iefix') format('embedded-opentype'),
-        url('SofiaProBold.woff2') format('woff2'),
-        url('SofiaProBold.woff') format('woff'),
-        url('SofiaProBold.ttf') format('truetype');
+        url('sofia/SofiaProBold.eot?#iefix') format('embedded-opentype'),
+        url('sofia/SofiaProBold.woff2') format('woff2'),
+        url('sofia/SofiaProBold.woff') format('woff'),
+        url('sofia/SofiaProBold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Sofia Pro';
-    src: url('SofiaProExtraLight-Italic.eot');
+    src: url('sofia/SofiaProExtraLight-Italic.eot');
     src: local('Sofia Pro ExtraLight Italic'), local('SofiaProExtraLight-Italic'),
-        url('SofiaProExtraLight-Italic.eot?#iefix') format('embedded-opentype'),
-        url('SofiaProExtraLight-Italic.woff2') format('woff2'),
-        url('SofiaProExtraLight-Italic.woff') format('woff'),
-        url('SofiaProExtraLight-Italic.ttf') format('truetype');
+        url('sofia/SofiaProExtraLight-Italic.eot?#iefix') format('embedded-opentype'),
+        url('sofia/SofiaProExtraLight-Italic.woff2') format('woff2'),
+        url('sofia/SofiaProExtraLight-Italic.woff') format('woff'),
+        url('sofia/SofiaProExtraLight-Italic.ttf') format('truetype');
     font-weight: 200;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Sofia Pro';
-    src: url('SofiaProLight-Italic.eot');
+    src: url('sofia/SofiaProLight-Italic.eot');
     src: local('Sofia Pro Light Italic'), local('SofiaProLight-Italic'),
-        url('SofiaProLight-Italic.eot?#iefix') format('embedded-opentype'),
-        url('SofiaProLight-Italic.woff2') format('woff2'),
-        url('SofiaProLight-Italic.woff') format('woff'),
-        url('SofiaProLight-Italic.ttf') format('truetype');
+        url('sofia/SofiaProLight-Italic.eot?#iefix') format('embedded-opentype'),
+        url('sofia/SofiaProLight-Italic.woff2') format('woff2'),
+        url('sofia/SofiaProLight-Italic.woff') format('woff'),
+        url('sofia/SofiaProLight-Italic.ttf') format('truetype');
     font-weight: 300;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Sofia Pro';
-    src: url('SofiaProBlack-Italic.eot');
+    src: url('sofia/SofiaProBlack-Italic.eot');
     src: local('Sofia Pro Black Italic'), local('SofiaProBlack-Italic'),
-        url('SofiaProBlack-Italic.eot?#iefix') format('embedded-opentype'),
-        url('SofiaProBlack-Italic.woff2') format('woff2'),
-        url('SofiaProBlack-Italic.woff') format('woff'),
-        url('SofiaProBlack-Italic.ttf') format('truetype');
+        url('sofia/SofiaProBlack-Italic.eot?#iefix') format('embedded-opentype'),
+        url('sofia/SofiaProBlack-Italic.woff2') format('woff2'),
+        url('sofia/SofiaProBlack-Italic.woff') format('woff'),
+        url('sofia/SofiaProBlack-Italic.ttf') format('truetype');
     font-weight: 900;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Sofia Pro';
-    src: url('SofiaProBlack.eot');
+    src: url('sofia/SofiaProBlack.eot');
     src: local('Sofia Pro Black'), local('SofiaProBlack'),
-        url('SofiaProBlack.eot?#iefix') format('embedded-opentype'),
-        url('SofiaProBlack.woff2') format('woff2'),
-        url('SofiaProBlack.woff') format('woff'),
-        url('SofiaProBlack.ttf') format('truetype');
+        url('sofia/SofiaProBlack.eot?#iefix') format('embedded-opentype'),
+        url('sofia/SofiaProBlack.woff2') format('woff2'),
+        url('sofia/SofiaProBlack.woff') format('woff'),
+        url('sofia/SofiaProBlack.ttf') format('truetype');
     font-weight: 900;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Sofia Pro';
-    src: url('SofiaProUltraLight.eot');
+    src: url('sofia/SofiaProUltraLight.eot');
     src: local('Sofia Pro UltraLight'), local('SofiaProUltraLight'),
-        url('SofiaProUltraLight.eot?#iefix') format('embedded-opentype'),
-        url('SofiaProUltraLight.woff2') format('woff2'),
-        url('SofiaProUltraLight.woff') format('woff'),
-        url('SofiaProUltraLight.ttf') format('truetype');
+        url('sofia/SofiaProUltraLight.eot?#iefix') format('embedded-opentype'),
+        url('sofia/SofiaProUltraLight.woff2') format('woff2'),
+        url('sofia/SofiaProUltraLight.woff') format('woff'),
+        url('sofia/SofiaProUltraLight.ttf') format('truetype');
     font-weight: 200;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Sofia Pro';
-    src: url('SofiaProBold-Italic.eot');
+    src: url('sofia/SofiaProBold-Italic.eot');
     src: local('Sofia Pro Bold Italic'), local('SofiaProBold-Italic'),
-        url('SofiaProBold-Italic.eot?#iefix') format('embedded-opentype'),
-        url('SofiaProBold-Italic.woff2') format('woff2'),
-        url('SofiaProBold-Italic.woff') format('woff'),
-        url('SofiaProBold-Italic.ttf') format('truetype');
+        url('sofia/SofiaProBold-Italic.eot?#iefix') format('embedded-opentype'),
+        url('sofia/SofiaProBold-Italic.woff2') format('woff2'),
+        url('sofia/SofiaProBold-Italic.woff') format('woff'),
+        url('sofia/SofiaProBold-Italic.ttf') format('truetype');
     font-weight: bold;
     font-style: italic;
+}
+
+
+
+/*Circular*/
+
+@font-face {
+    font-family: 'Circular Std';
+    src: url('circular/CircularStd-MediumItalic.eot');
+    src: local('Circular Std Medium Italic'), local('CircularStd-MediumItalic'),
+        url('circular/CircularStd-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('circular/CircularStd-MediumItalic.woff2') format('woff2'),
+        url('circular/CircularStd-MediumItalic.woff') format('woff'),
+        url('circular/CircularStd-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Circular Std';
+    src: url('circular/CircularStd-Black.eot');
+    src: local('Circular Std Black'), local('CircularStd-Black'),
+        url('circular/CircularStd-Black.eot?#iefix') format('embedded-opentype'),
+        url('circular/CircularStd-Black.woff2') format('woff2'),
+        url('circular/CircularStd-Black.woff') format('woff'),
+        url('circular/CircularStd-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Circular Std';
+    src: url('circular/CircularStd-Medium.eot');
+    src: local('Circular Std Medium'), local('CircularStd-Medium'),
+        url('circular/CircularStd-Medium.eot?#iefix') format('embedded-opentype'),
+        url('circular/CircularStd-Medium.woff2') format('woff2'),
+        url('circular/CircularStd-Medium.woff') format('woff'),
+        url('circular/CircularStd-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Circular Std';
+    src: url('circular/CircularStd-Bold.eot');
+    src: local('Circular Std Bold'), local('CircularStd-Bold'),
+        url('circular/CircularStd-Bold.eot?#iefix') format('embedded-opentype'),
+        url('circular/CircularStd-Bold.woff2') format('woff2'),
+        url('circular/CircularStd-Bold.woff') format('woff'),
+        url('circular/CircularStd-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Circular Std';
+    src: url('circular/CircularStd-BlackItalic.eot');
+    src: local('Circular Std Black Italic'), local('CircularStd-BlackItalic'),
+        url('circular/CircularStd-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('circular/CircularStd-BlackItalic.woff2') format('woff2'),
+        url('circular/CircularStd-BlackItalic.woff') format('woff'),
+        url('circular/CircularStd-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Circular Std';
+    src: url('circular/CircularStd-BookItalic.eot');
+    src: local('Circular Std Book Italic'), local('CircularStd-BookItalic'),
+        url('circular/CircularStd-BookItalic.eot?#iefix') format('embedded-opentype'),
+        url('circular/CircularStd-BookItalic.woff2') format('woff2'),
+        url('circular/CircularStd-BookItalic.woff') format('woff'),
+        url('circular/CircularStd-BookItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Circular Std';
+    src: url('circular/CircularStd-BoldItalic.eot');
+    src: local('Circular Std Bold Italic'), local('CircularStd-BoldItalic'),
+        url('circular/CircularStd-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('circular/CircularStd-BoldItalic.woff2') format('woff2'),
+        url('circular/CircularStd-BoldItalic.woff') format('woff'),
+        url('circular/CircularStd-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Circular Std';
+    src: url('circular/CircularStd-Book.eot');
+    src: local('Circular Std Book'), local('CircularStd-Book'),
+        url('circular/CircularStd-Book.eot?#iefix') format('embedded-opentype'),
+        url('circular/CircularStd-Book.woff2') format('woff2'),
+        url('circular/CircularStd-Book.woff') format('woff'),
+        url('circular/CircularStd-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
