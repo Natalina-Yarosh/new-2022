@@ -227,11 +227,11 @@ ol {
 
     @media (max-width: 992px) {
       grid-template-columns: repeat(2, 1fr);
-      grid-template-rows: repeat(8, minmax(100px, 150px));
+      grid-template-rows: repeat(8, 150px);
     }
 
     @media (max-width: 767px) {
-      grid-template-rows: repeat(8, minmax(100px, 130px));
+      grid-template-rows: repeat(8, 130px);
     }
   }
 }
