@@ -325,15 +325,15 @@ ol {
   .main__info {
     -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
-    -ms-grid-rows: (minmax(100px, 150px))[8];
-        grid-template-rows: repeat(8, minmax(100px, 150px));
+    -ms-grid-rows: (150px)[8];
+        grid-template-rows: repeat(8, 150px);
   }
 }
 
 @media (max-width: 767px) {
   .main__info {
-    -ms-grid-rows: (minmax(100px, 130px))[8];
-        grid-template-rows: repeat(8, minmax(100px, 130px));
+    -ms-grid-rows: (130px)[8];
+        grid-template-rows: repeat(8, 130px);
   }
 }
 
